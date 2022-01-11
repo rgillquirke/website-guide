@@ -1,0 +1,126 @@
+div {
+    margin: 30px 30px;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .container {
+    display: block;
+    border: 2px solid black;
+    padding: 100px;
+    margin: 100px auto;
+  }
+  
+  .color-container {
+    display: block;
+    text-align: center;
+  }
+  
+  .color-panel:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .color-panel.slate-blue {
+    background-color: #1E8B9E;
+    border: 1px solid #1E8B9E;
+    margin: 10px auto;
+  }
+  
+  .color-panel.sky-blue {
+    background-color: #68D5E8;
+    border: 1px solid #68D5E8;
+    margin: 10px auto;
+  }
+  
+  .color-panel.mushroom {
+    background-color: #A37C5D;
+    border: 1px solid #A37C5D;
+    margin: 10px auto;
+  }
+  
+  .color-panel.orange {
+    background-color: #F5852A;
+    border: 1px solid #F5852A;
+    margin: 10px auto;
+  }
+  
+  .font-label {
+    text-decoration: underline;
+    display: inline-block;
+  }
+  
+  .font-label:hover {
+    cursor: pointer;
+    color: #1E8B9E;
+  }
+  
+  .regular.bebas-neue {
+    font-family: "Bebas Neue", cursive;
+  }
+  
+  .bold.bebas-neue {
+    font-family: "Bebas Neue", cursive;
+    font-weight: bold;
+  }
+  
+  .italic.bebas-neue {
+    font-family: "Bebas Neue", cursive;
+    font-style: italic;
+  }
+  
+  .regular.merriweather {
+    font-family: "Merriweather", serif;
+  }
+  
+  .bold.merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+  }
+  
+  .italic.merriweather {
+    font-family: "Merriweather", serif;
+    font-style: italic;
+  }
+  
+  .regular.raleway {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .bold.raleway {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+  
+  .italic.raleway {
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+  }
+  
+  .text-panel {
+    display: inline-block;
+  }
+  
+  .text-panel.merriweather {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  
+  .text-panel.bebas-neue {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .text-panel.raleway {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+  }
+  
+  .text-heading:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
